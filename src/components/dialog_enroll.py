@@ -17,7 +17,7 @@ def enroll_dialog():
 
             if res.data:
                 subject=res.data[0]
-                student_id=st.session_state.student_data('student_id')
+                student_id=st.session_state.student_data['student_id']
 
 
 
