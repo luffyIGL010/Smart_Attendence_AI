@@ -16,7 +16,7 @@ def enroll_dialog():
             res=supabase.table('subjects').select('subject_id ,name ,subject_code').eq('subject_code',join_code).execute()
 
             if res.data:
-                subject=res.data()
+                subject=res.data[0]
                 student_id=st.session_state.student_data('student_id')
 
 

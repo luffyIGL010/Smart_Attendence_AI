@@ -7,7 +7,7 @@ import io
 @st.dialog("Share Class Link")
 
 def share_subject_dialog(subject_name,subject_code):
-    app_domain="smart-attendance.streamlit.app"
+    app_domain="smart-attendance-ui.streamlit.app"
 
     join_url=f"{app_domain}/?join-code={subject_code}"
 
