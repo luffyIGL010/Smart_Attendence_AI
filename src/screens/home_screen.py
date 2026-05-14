@@ -16,7 +16,7 @@ def home_screen():
     col1, col2 = st.columns(2,gap="large")
 
     with col1:
-        st.header("I am a Student")
+        st.header("I am a Student" )
         st.image("https://cdn-icons-png.flaticon.com/512/201/201818.png", width=200)
         if st.button("Student Portal",type="primary",icon=":material/arrow_forward:",icon_position="right"):
             st.session_state['login_type'] = 'student'

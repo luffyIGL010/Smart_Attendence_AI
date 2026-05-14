@@ -1,3 +1,4 @@
+streamlit # for building the web interface
 numpy
 pandas
 
@@ -14,5 +15,7 @@ bcrypt # hashing passwords for security
 segno # for generating QR codes
 pillow # for image processing
 
-streamlit # for building the web interface
 
+
+librosa # for audio processing
+resemblyzer # for voice recognition and analysis
